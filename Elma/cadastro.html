@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/cadastro.css">
+</head>
+<body>
+    <div class="register-container">
+        <h1>Cadastro</h1>
+        <div class="register-options">
+            <div class="register-email">
+                <h2>Registrar com E-mail</h2>
+                <form id="emailRegisterForm" action="serviços.html">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                  <a href="serviços.html"><button type="submit">Registrar</button></a>
+                </form>
+            </div>
+            <div class="register-social">
+                <h2>Ou registre-se com</h2>
+                <button class="social-btn microsoft-btn">Registrar com Microsoft</button>
+                <button class="social-btn facebook-btn">Registrar com Facebook</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Assinatura</title>
+    <link rel="stylesheet" href="styles/chat.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha seu Plano de Assinatura</h1>
+        <div class="plans">
+            <div class="plan" data-plan="Basic">
+                <h2>Plano Básico</h2>
+                <p>50.000 kz/mês</p>
+                <button class="select-plan">Selecionar</button>
+            </div>
+            <div class="plan" data-plan="Standard">
+                <h2>Plano Padrão</h2>
+                <p>70.000 kz/mês</p>
+                <button class="select-plan">Selecionar</button>
+            </div>
+            <div class="plan" data-plan="Premium">
+                <h2>Plano Premium</h2>
+                <p>100.000 kz/mês</p>
+                <button class="select-plan">Selecionar</button>
+            </div>
+        </div>
+        <h2>Escolha um Banco</h2>
+        <div class="banks">
+            <label>
+                <input type="radio" name="bank" value="Banco do Brasil" required>
+                <span>Banco BAI</span>
+            </label>
+            <label>
+                <input type="radio" name="bank" value="Caixa Econômica" required>
+                <span>Banco BIC</span>
+            </label>
+            <label>
+                <input type="radio" name="bank" value="Itaú" required>
+                <span>Itaú</span>
+            </label>
+            <label>
+                <input type="radio" name="bank" value="Bradesco" required>
+                <span>Bancon BFA</span>
+            </label>
+        </div>
+        <a href="chat2.html"><button id="confirmButton" disabled>Confirmar</button></a>
+        <div id="result"></div>
+    </div>
+    <script src="js/chat.js"></script>
+</body>
+</html>

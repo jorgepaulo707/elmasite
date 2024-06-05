@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Upload de documentos</title>
+</head>
+<body>
+  <header style="background-image: url('img/background-sobre1.jpg')">
+    <div class="container">
+      <nav>
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo">
+        </a>
+        <ul class="ul">
+          <a href="index.html">Pagina inicial</a>
+          <a href="processo.html">Processo de Utilização</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="Contacto.html" class="btn">Contacto</a>
+        </ul>
+      </nav>
+      <div class="btn-abrir-menu" id="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="fa-solid fa-xmark"></i>
+          <ul class="main">
+            <a href="index.html">Pagina inicial</a>
+            <a href="processo.html">Processo de Utilização</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="Contacto.html">Contacto</a>
+          </ul>
+        </div>
+      </div> <!--menu mobile-->
+      <div class="overlay-menu"></div>
+      <section class="banner">
+        <div class="banner-text">
+          <h1>Processo de Ultilização</h1>
+          <p>Colégio Timóteo Ulika o melhor caminho para a sua formação </p>
+          <a href="Contacto.html" class="btn">Entrar em contacto</a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <section>
+    <h4>Upload dos Documentos</h4><br>
+    <p>Quais documentos você gostarias armazenar?</p>
+    <form action="thanks.html">
+    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender" required>
+                            <label for="female">Identidade</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender" required>
+                            <label for="male">Passaporte</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender" required>
+                            <label for="others">Certificados</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender" required>
+                            <label for="none">Outros</label>
+                        </div>
+       <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">N° do B.I</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o número do seu B.I" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(+244) xxx xxx xxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Data de nascimento</label>
+                        <input id="number" type="number" name="Datanasci" placeholder="Digite sua data de nascimento" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="number">Data de emissão</label>
+                        <input id="number" type="number" name="Dataemissao" placeholder="Digite a data de emissão" required>
+                    </div>
+
+                </div>
+      <div class="continue-button">
+                    <button><a href="thanks.html">Continuar</a> </button>
+                </div>
+      <h4></h4>
+    </div>
+    </form>
+  </section>
+  <section class="ocorrencias">
+    <div class="container">
+      <div class="ocorrencias-text">
+        <h3>Upload e Organização de Documentos</h3>
+        <p>Permite aos usuários fazer upload de documentos como currículos, cartas de apresentação, certificados e outros documentos relevantes. Os usuários podem organizar esses documentos em pastas para fácil acesso. </p>
+      </div>
+      <div class="ocorrencias-img">
+        <img src="img/upload.jpg">
+      </div>
+    </div>
+  </section>
+  <section class="ocorrencias">
+    <div class="container">
+      <div class="ocorrencias-text">
+        <h3>Segurança e Privacidade</h3>
+        <p>Oferece criptografia de ponta a ponta para garantir que os documentos dos usuários estejam protegidos contra acesso não autorizado.<a href="Contacto" class="btn animate-btn">Entrar em contacto</a>
+      </div>
+      <div class="ocorrencias-img">
+        <img src="img/segurança.jpg">
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="Links">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p> Desenvolvido por Jorge</p>
+    </div>
+  </footer>
+      <script src="js/jorge.js"></script>
+</body>
+</html>

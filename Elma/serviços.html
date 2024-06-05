@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha de Serviços</title>
+    <link rel="stylesheet" href="styles/serviços.css">
+</head>
+<body>
+    <div class="services-container">
+        <h1>Escolha os Serviços que Você Pretende Utilizar</h1>
+        <form id="servicesForm" action="chat.html">
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="service" value="Upload de Documentos">
+                    <span>Upload de Documentos</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="service" value="Agendar Serviços">
+                    <span>Agendar Serviços</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="service" value="Organização e gerenciamento de documentos">
+                    <span>Organização e gerenciamento de documentos</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="service" value="Participação no processo de recrutamento ou integração da empresa">
+                    <span>Participação no processo de recrutamento ou integração da empresa</span>
+                </label>
+            </div>
+          <a href="chat.html"><button type="submit">Confirmar</button></a>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="js/serviços.js"></script>
+</body>
+</html>
